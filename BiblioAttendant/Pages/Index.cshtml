@@ -1,10 +1,49 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "蔵書一覧";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+    <h1 class="display-4 mb-4">Other page</h1>
+    <p class="h4 mb-4">@Model.Message</p>
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+            <label class="form-label h5">
+                @Html.CheckBox("check", true,
+                    new { @class = "form-check-input" })
+                @Html.DisplayName("Checkbox1")
+            </label>
+        </div>
+        <div class="container">
+            <table>
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>ISBN</th>
+                    <th>ID</th>
+                    <th>書籍名</th>
+                    <th>簡易説明</th>
+                    <th>著者</th>
+                    <th>出版社</th>
+                    <th>登録日</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var books in Model.book)
+                {
+                    <tr>
+                        <td><input type="checkbox"/></td>
+                        <td>
+                            @Html.DisplayFor(modelItem => books.IsbnNo)
+                        </td>
+                    </tr>
+                    
+                }
+                </tbody>
+            </table>
+        </div>
+        <div><input type="submit" /></div>
+    }
 </div>

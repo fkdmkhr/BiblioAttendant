@@ -35,3 +35,7 @@ C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netco
 C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\BiblioAttendant.pdb
 C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\BiblioAttendant.genruntimeconfig.cache
 C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\BiblioAttendant.csproj.CopyComplete
+C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\Razor\Pages\AddRegist.cshtml.g.cs
+C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\Razor\Pages\Delete.cshtml.g.cs
+C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\Razor\Pages\Edit.cshtml.g.cs
+C:\Users\z00h231097\Source\Repos\BiblioAttendant\BiblioAttendant\obj\Debug\netcoreapp3.1\Razor\Pages\NewRegist.cshtml.g.cs
