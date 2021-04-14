@@ -8,18 +8,33 @@ using Microsoft.Extensions.Logging;
 
 namespace BiblioAttendant.Pages
 {
+    public enum Gender
+    {
+        male,
+        female
+    }
+
+    public enum Platform
+    {
+        Windows,
+        macOS,
+        Linux,
+        ChomeOS,
+        Android,
+        iOS
+    }
+
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
 
         public void OnGet()
         {
+            
+        }
 
+        public void OnPost(bool check, string gender, Platform pc, Platform[] pc2)
+        {
+           
         }
     }
 }
